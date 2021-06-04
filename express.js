@@ -26,8 +26,8 @@ var port = 443;
 
 app.use(express.static('public');
 
-app use((req, res) => res.sendfile(`${__dirname}/public/index.html`));
+app.use(req, res) => res.sendfile(`${__dirname}/public/index.html`));
 
 httpsServer.listen(port, () => {
-    console.log(''HTTPS Server Is Currently running On port 443');
+    console.log('HTTPS Server Is Currently running On port 443');
 })
